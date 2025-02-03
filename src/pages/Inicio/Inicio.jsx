@@ -7,7 +7,7 @@ const Inicio = () => {
       <div className="inicio-paragraph">
         <img
           className="logo-inicio"
-          src="./imagenes/Logo.tienda.png"
+          src="/imagenes/Logo.tienda.png"
           alt="logo"
         />
         <p className="paragraph">

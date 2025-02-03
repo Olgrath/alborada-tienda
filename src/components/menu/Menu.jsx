@@ -6,7 +6,7 @@ const Menu = () => {
     <header className="menu-contenedor">
       <img
         className="logo-encabezado"
-        src="/Imagenes/Logo.tienda.horizontal.png"
+        src="/imagenes/Logo.tienda.horizontal.png"
         alt="logo"
       />
       <nav className="menu-enlaces">
@@ -28,7 +28,7 @@ const Menu = () => {
             <NavLink to="/usuario">
               <img
                 className="menu-icono"
-                src="/Imagenes/usuario.png"
+                src="/imagenes/usuario.png"
                 alt="usuario"
               />
             </NavLink>
@@ -45,14 +45,14 @@ const Menu = () => {
             <NavLink to="/carrito">
               <img
                 className="menu-icono"
-                src="/Imagenes/carrito.png"
+                src="/imagenes/carrito.png"
                 alt="carrito"
               />
             </NavLink>
           </li>
           <li>
             <NavLink to="/buscador">
-              <img className="menu-icono" src="/Imagenes/lupa.png" alt="lupa" />
+              <img className="menu-icono" src="/imagenes/lupa.png" alt="lupa" />
             </NavLink>
           </li>
         </ul>

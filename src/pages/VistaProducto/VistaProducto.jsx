@@ -37,7 +37,7 @@ const VistaProducto = () => {
             </tbody>
           </table>
           <video className="video-vistaproducto" controls>
-            <source src="/Video/video-geoda.mp4" type="video/mp4" />
+            <source src="/video/video-geoda.mp4" type="video/mp4" />
           </video>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/yRuReziJhZ4"  allowfullscreen></iframe>
         </div>
