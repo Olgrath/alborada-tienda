@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Roboto-thin";
+  src: url("../public/fuentes/Roboto-Thin.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto-thin", Arial, sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.pagina {
+  display: grid;
+  grid-template-rows: 1fr 10fr 1fr;
+  max-height: 100vh;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.rutas {
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

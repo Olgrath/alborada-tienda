@@ -1,0 +1,32 @@
+.productos-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.productos-header h1 {
+  align-self: center; 
+  width: 100%;
+  text-align: center; 
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100vw;
+  margin-top: 50px;
+}
+
+.productos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+

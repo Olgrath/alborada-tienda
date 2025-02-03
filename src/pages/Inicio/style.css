@@ -1,0 +1,59 @@
+.inicio-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px 10% 0 10%;
+}
+
+.logo-inicio {
+    width: 500px; 
+    height: auto; 
+}
+
+.inicio-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: 'Roboto-thin';
+    src:url(/public/fuentes/Roboto-Thin.ttf);
+    color: black;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center; 
+    margin: 0;
+    padding: 0 10px;
+
+}
+
+.inicio-categorias {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.social-links-icon {
+    width: 50px; 
+    height: 50px; 
+    transition: transform 0.3s, filter 0.3s; 
+}
+
+.social-links-icon:hover {
+    transform: scale(1.2); 
+    filter: brightness(1.2);
+}
